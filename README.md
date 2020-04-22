@@ -1,0 +1,3 @@
+# Collatz_problem
+
+コラッツ問題をPythonとSwiftで書いてみました
