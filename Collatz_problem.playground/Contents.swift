@@ -1,6 +1,5 @@
 var n = 103693973672629630
 var array = [n]
-var number = array.count
 
 while true {
     
@@ -17,5 +16,5 @@ while true {
     }
 }
 
-number = array.count
+let number = array.count
 print("\(number):\(array)")
