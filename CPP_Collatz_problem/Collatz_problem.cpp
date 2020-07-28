@@ -20,7 +20,7 @@ void showArray(vector<long> array)
     cout << "]" << endl;
 }
 
-void exportImage(vector<long> array)
+void exportText(vector<long> array)
 {
     ofstream outputfile(F);
     outputfile << array.size() << ": [";
@@ -57,6 +57,6 @@ int main()
         array.push_back(n);
     }
     showArray(array);
-    exportImage(array);
+    exportText(array);
     return 0;
 }
